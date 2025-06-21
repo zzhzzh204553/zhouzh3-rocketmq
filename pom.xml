@@ -11,7 +11,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zhouzh3</groupId>
-    <artifactId>zhouzh3-rocketmq</artifactId>
+    <artifactId>zhouzh3-rocketmq5</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
