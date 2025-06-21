@@ -5,12 +5,15 @@ server:
 rocketmq:
     endpoint: 0.0.0.0:8081
     producer-config:
-        topic: TestTopic
+        topic: TopicTest
     consumer-config:
         group: YourConsumerGroup
-        topic: TestTopic
+        topic: TopicTest
         tag: "*"
         consumptionThreadCount: 20
 
 
 
+    name-server: 0.0.0.0:9876
+    producer:
+        group: interview-group
