@@ -4,6 +4,7 @@ import lombok.Data;
 
 /**
  * @author haig
+ * messageKey用来保存业务ID
  */
 @Data
 public class MessageRequest {
